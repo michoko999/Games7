@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible"  content="ie=edge">
     <meta name="viewport"  content="initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
-    <link rel="stylesheet" href="../style.css"> 
     <link rel="stylesheet"  href="assets/css/app.css"  type="text/css">    
     <title> Basketball Stars </title>
 </head>
@@ -64,17 +63,9 @@
                 }
             },
         };
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src ='assets/main.min.js' ;
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'gamedistribution-jssdk'));
+        // SDK publicitaire GameDistribution retiré : sans lui le jeu démarre directement
     </script>
     <script type="text/javascript"  src="assets/basketball_legends_2019.min.js" ></script>
-    <a id="back" href="../games.html"> Back </a>
-    <script src="../theme.js"></script>
+    <a id="back" href="/jeux/" target="_top"> Back </a>
 </body>
 </html>
